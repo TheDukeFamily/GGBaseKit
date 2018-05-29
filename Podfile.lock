@@ -1,0 +1,22 @@
+PODS:
+  - CYLTabBarController (1.17.6)
+  - YYCategories (1.0.4):
+    - YYCategories/no-arc (= 1.0.4)
+  - YYCategories/no-arc (1.0.4)
+
+DEPENDENCIES:
+  - CYLTabBarController (~> 1.17.6)
+  - YYCategories (~> 1.0.4)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - CYLTabBarController
+    - YYCategories
+
+SPEC CHECKSUMS:
+  CYLTabBarController: c374643dea6dadece8bdff9c70f7387f8ffd7d08
+  YYCategories: 6bcd4314c6661a561410dce4a793379ebd306abd
+
+PODFILE CHECKSUM: 6351cae004fe2b43c2f5566d9e60b874a3530363
+
+COCOAPODS: 1.5.0
