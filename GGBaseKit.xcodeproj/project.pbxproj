@@ -8,13 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		04084FD220BCE3CE00E0EB0B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04084FD120BCE3CE00E0EB0B /* AppDelegate.m */; };
-		04084FD520BCE3CE00E0EB0B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04084FD420BCE3CE00E0EB0B /* ViewController.m */; };
-		04084FD820BCE3CE00E0EB0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04084FD620BCE3CE00E0EB0B /* Main.storyboard */; };
 		04084FDA20BCE3CF00E0EB0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04084FD920BCE3CF00E0EB0B /* Assets.xcassets */; };
-		04084FDD20BCE3CF00E0EB0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04084FDB20BCE3CF00E0EB0B /* LaunchScreen.storyboard */; };
 		04084FE020BCE3CF00E0EB0B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04084FDF20BCE3CF00E0EB0B /* main.m */; };
 		04084FEA20BCE3CF00E0EB0B /* GGBaseKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04084FE920BCE3CF00E0EB0B /* GGBaseKitTests.m */; };
 		04084FF520BCE3CF00E0EB0B /* GGBaseKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04084FF420BCE3CF00E0EB0B /* GGBaseKitUITests.m */; };
+		0408500520BCE48800E0EB0B /* GGNavgationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0408500420BCE48800E0EB0B /* GGNavgationController.m */; };
+		040850CD20BCF99300E0EB0B /* GGTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 040850CC20BCF99300E0EB0B /* GGTabBarViewController.m */; };
+		040850D120BCFA5C00E0EB0B /* GGBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 040850D020BCFA5C00E0EB0B /* GGBaseViewController.m */; };
+		040850D720BCFAD900E0EB0B /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 040850D620BCFAD900E0EB0B /* OneViewController.m */; };
+		040850DA20BCFAE100E0EB0B /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 040850D920BCFAE100E0EB0B /* TwoViewController.m */; };
+		040850DD20BCFAEC00E0EB0B /* ThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 040850DC20BCFAEC00E0EB0B /* ThreeViewController.m */; };
+		040850E020BCFAF500E0EB0B /* FourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 040850DF20BCFAF500E0EB0B /* FourViewController.m */; };
+		040850E620BD35D100E0EB0B /* GGTabBars.m in Sources */ = {isa = PBXBuildFile; fileRef = 040850E520BD35D100E0EB0B /* GGTabBars.m */; };
+		5E3C165B32A1E871C3B26ED4 /* libPods-GGBaseKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 52DD856900EF6DAEA33DBC84 /* libPods-GGBaseKit.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,11 +44,7 @@
 		04084FCD20BCE3CE00E0EB0B /* GGBaseKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GGBaseKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04084FD020BCE3CE00E0EB0B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		04084FD120BCE3CE00E0EB0B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		04084FD320BCE3CE00E0EB0B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		04084FD420BCE3CE00E0EB0B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		04084FD720BCE3CE00E0EB0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04084FD920BCE3CF00E0EB0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		04084FDC20BCE3CF00E0EB0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04084FDE20BCE3CF00E0EB0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04084FDF20BCE3CF00E0EB0B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		04084FE520BCE3CF00E0EB0B /* GGBaseKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GGBaseKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +53,26 @@
 		04084FF020BCE3CF00E0EB0B /* GGBaseKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GGBaseKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04084FF420BCE3CF00E0EB0B /* GGBaseKitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGBaseKitUITests.m; sourceTree = "<group>"; };
 		04084FF620BCE3CF00E0EB0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0408500320BCE48800E0EB0B /* GGNavgationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GGNavgationController.h; sourceTree = "<group>"; };
+		0408500420BCE48800E0EB0B /* GGNavgationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGNavgationController.m; sourceTree = "<group>"; };
+		040850C120BCEC0200E0EB0B /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		040850CB20BCF99300E0EB0B /* GGTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GGTabBarViewController.h; sourceTree = "<group>"; };
+		040850CC20BCF99300E0EB0B /* GGTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGTabBarViewController.m; sourceTree = "<group>"; };
+		040850CF20BCFA5C00E0EB0B /* GGBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GGBaseViewController.h; sourceTree = "<group>"; };
+		040850D020BCFA5C00E0EB0B /* GGBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGBaseViewController.m; sourceTree = "<group>"; };
+		040850D520BCFAD900E0EB0B /* OneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
+		040850D620BCFAD900E0EB0B /* OneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
+		040850D820BCFAE100E0EB0B /* TwoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		040850D920BCFAE100E0EB0B /* TwoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
+		040850DB20BCFAEC00E0EB0B /* ThreeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThreeViewController.h; sourceTree = "<group>"; };
+		040850DC20BCFAEC00E0EB0B /* ThreeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreeViewController.m; sourceTree = "<group>"; };
+		040850DE20BCFAF500E0EB0B /* FourViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FourViewController.h; sourceTree = "<group>"; };
+		040850DF20BCFAF500E0EB0B /* FourViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FourViewController.m; sourceTree = "<group>"; };
+		040850E420BD35D100E0EB0B /* GGTabBars.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GGTabBars.h; sourceTree = "<group>"; };
+		040850E520BD35D100E0EB0B /* GGTabBars.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGTabBars.m; sourceTree = "<group>"; };
+		50F50C6EA08A91D96584D821 /* Pods-GGBaseKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GGBaseKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-GGBaseKit/Pods-GGBaseKit.release.xcconfig"; sourceTree = "<group>"; };
+		52DD856900EF6DAEA33DBC84 /* libPods-GGBaseKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GGBaseKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B132417336350A9888A48D6E /* Pods-GGBaseKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GGBaseKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GGBaseKit/Pods-GGBaseKit.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E3C165B32A1E871C3B26ED4 /* libPods-GGBaseKit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +108,8 @@
 				04084FE820BCE3CF00E0EB0B /* GGBaseKitTests */,
 				04084FF320BCE3CF00E0EB0B /* GGBaseKitUITests */,
 				04084FCE20BCE3CE00E0EB0B /* Products */,
+				A2183ADE634705C3752D2530 /* Pods */,
+				857460375B65EEEAC85819FD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,13 +126,12 @@
 		04084FCF20BCE3CE00E0EB0B /* GGBaseKit */ = {
 			isa = PBXGroup;
 			children = (
+				0408500220BCE46100E0EB0B /* GGBase */,
+				040850CE20BCFA3B00E0EB0B /* Test */,
 				04084FD020BCE3CE00E0EB0B /* AppDelegate.h */,
 				04084FD120BCE3CE00E0EB0B /* AppDelegate.m */,
-				04084FD320BCE3CE00E0EB0B /* ViewController.h */,
-				04084FD420BCE3CE00E0EB0B /* ViewController.m */,
-				04084FD620BCE3CE00E0EB0B /* Main.storyboard */,
+				040850C120BCEC0200E0EB0B /* PrefixHeader.pch */,
 				04084FD920BCE3CF00E0EB0B /* Assets.xcassets */,
-				04084FDB20BCE3CF00E0EB0B /* LaunchScreen.storyboard */,
 				04084FDE20BCE3CF00E0EB0B /* Info.plist */,
 				04084FDF20BCE3CF00E0EB0B /* main.m */,
 			);
@@ -132,6 +156,77 @@
 			path = GGBaseKitUITests;
 			sourceTree = "<group>";
 		};
+		0408500220BCE46100E0EB0B /* GGBase */ = {
+			isa = PBXGroup;
+			children = (
+				040850C220BCF58200E0EB0B /* Controller */,
+				040850C420BCF59F00E0EB0B /* Model */,
+				040850C320BCF59F00E0EB0B /* View */,
+			);
+			path = GGBase;
+			sourceTree = "<group>";
+		};
+		040850C220BCF58200E0EB0B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0408500320BCE48800E0EB0B /* GGNavgationController.h */,
+				0408500420BCE48800E0EB0B /* GGNavgationController.m */,
+				040850CB20BCF99300E0EB0B /* GGTabBarViewController.h */,
+				040850CC20BCF99300E0EB0B /* GGTabBarViewController.m */,
+				040850CF20BCFA5C00E0EB0B /* GGBaseViewController.h */,
+				040850D020BCFA5C00E0EB0B /* GGBaseViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		040850C320BCF59F00E0EB0B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				040850E420BD35D100E0EB0B /* GGTabBars.h */,
+				040850E520BD35D100E0EB0B /* GGTabBars.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		040850C420BCF59F00E0EB0B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		040850CE20BCFA3B00E0EB0B /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				040850D520BCFAD900E0EB0B /* OneViewController.h */,
+				040850D620BCFAD900E0EB0B /* OneViewController.m */,
+				040850D820BCFAE100E0EB0B /* TwoViewController.h */,
+				040850D920BCFAE100E0EB0B /* TwoViewController.m */,
+				040850DB20BCFAEC00E0EB0B /* ThreeViewController.h */,
+				040850DC20BCFAEC00E0EB0B /* ThreeViewController.m */,
+				040850DE20BCFAF500E0EB0B /* FourViewController.h */,
+				040850DF20BCFAF500E0EB0B /* FourViewController.m */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		857460375B65EEEAC85819FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52DD856900EF6DAEA33DBC84 /* libPods-GGBaseKit.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A2183ADE634705C3752D2530 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B132417336350A9888A48D6E /* Pods-GGBaseKit.debug.xcconfig */,
+				50F50C6EA08A91D96584D821 /* Pods-GGBaseKit.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +234,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04084FF920BCE3CF00E0EB0B /* Build configuration list for PBXNativeTarget "GGBaseKit" */;
 			buildPhases = (
+				F699B0EA4C8605DA1E35B2C6 /* [CP] Check Pods Manifest.lock */,
 				04084FC920BCE3CE00E0EB0B /* Sources */,
 				04084FCA20BCE3CE00E0EB0B /* Frameworks */,
 				04084FCB20BCE3CE00E0EB0B /* Resources */,
@@ -235,9 +331,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04084FDD20BCE3CF00E0EB0B /* LaunchScreen.storyboard in Resources */,
 				04084FDA20BCE3CF00E0EB0B /* Assets.xcassets in Resources */,
-				04084FD820BCE3CE00E0EB0B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,14 +351,42 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		F699B0EA4C8605DA1E35B2C6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GGBaseKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		04084FC920BCE3CE00E0EB0B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04084FD520BCE3CE00E0EB0B /* ViewController.m in Sources */,
+				040850DA20BCFAE100E0EB0B /* TwoViewController.m in Sources */,
+				040850D120BCFA5C00E0EB0B /* GGBaseViewController.m in Sources */,
+				040850CD20BCF99300E0EB0B /* GGTabBarViewController.m in Sources */,
+				040850E020BCFAF500E0EB0B /* FourViewController.m in Sources */,
 				04084FE020BCE3CF00E0EB0B /* main.m in Sources */,
+				040850D720BCFAD900E0EB0B /* OneViewController.m in Sources */,
+				0408500520BCE48800E0EB0B /* GGNavgationController.m in Sources */,
 				04084FD220BCE3CE00E0EB0B /* AppDelegate.m in Sources */,
+				040850DD20BCFAEC00E0EB0B /* ThreeViewController.m in Sources */,
+				040850E620BD35D100E0EB0B /* GGTabBars.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,25 +420,6 @@
 			targetProxy = 04084FF120BCE3CF00E0EB0B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		04084FD620BCE3CE00E0EB0B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				04084FD720BCE3CE00E0EB0B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		04084FDB20BCE3CF00E0EB0B /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				04084FDC20BCE3CF00E0EB0B /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		04084FF720BCE3CF00E0EB0B /* Debug */ = {
@@ -431,35 +534,43 @@
 		};
 		04084FFA20BCE3CF00E0EB0B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B132417336350A9888A48D6E /* Pods-GGBaseKit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z62LGH637P;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/mac/Desktop/GGBaseKit/GGBaseKit/PrefixHeader.pch;
 				INFOPLIST_FILE = GGBaseKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.LeShare.www.EnjoyVillage.GGBaseKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		04084FFB20BCE3CF00E0EB0B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50F50C6EA08A91D96584D821 /* Pods-GGBaseKit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z62LGH637P;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/mac/Desktop/GGBaseKit/GGBaseKit/PrefixHeader.pch;
 				INFOPLIST_FILE = GGBaseKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.LeShare.www.EnjoyVillage.GGBaseKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

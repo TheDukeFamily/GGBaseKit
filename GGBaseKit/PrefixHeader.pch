@@ -1,0 +1,15 @@
+//
+//  PrefixHeader.pch
+//  GGBaseKit
+//
+//  Created by Mac on 2018/5/29.
+//  Copyright © 2018年 Mr.Gao. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import <YYCategories.h>
+#import <CYLTabBarController.h>
+
+#endif /* PrefixHeader_pch */
